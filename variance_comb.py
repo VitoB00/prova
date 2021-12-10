@@ -7,6 +7,7 @@ from math_Op import list_square
 from math_Op import power
 import numpy as np
 import statistics
+
 from numpy import var
 #Secondo Code
 from math_Op import factorial
@@ -52,9 +53,15 @@ print("standard deviation = ", st_dev)
 print("\n")
 print(var(array))
 
-#controprova con la libreria statistics
+
+#controprova con la libreria statistics varianza
 print("\n")
 print(statistics.variance(array))
+
+#controprova con la libreria statistics st_dev
+
+print("\n")
+print(statistics.stdev(array))
 #dal sito è possibile controllare l'affidabilità.
 #https://www.calculator.net/standard-deviation-calculator.html
 
